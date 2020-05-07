@@ -34,6 +34,8 @@ public class LoginTest {
 		Actions action = new Actions(driver);
 		action.sendKeys(Keys.ENTER).perform();
 
+		action.sendKeys(Keys.ENTER).perform();
+
 	}
 
 	@AfterSuite
